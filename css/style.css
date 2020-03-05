@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  background-image: url(../image/123.gif), url(../image/sky.gif);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: 20rem, cover;
+}
+.ex1 {
+  padding: 20px;
+  background-image: url(../image/bird.gif);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
